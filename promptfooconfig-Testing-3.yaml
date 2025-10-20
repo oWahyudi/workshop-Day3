@@ -1,0 +1,24 @@
+description: "My eval"
+
+prompts:
+  - |
+      Tell me more about start-up tax exemption for {{topic}}.
+      Include the exact phrase: "period of time".
+      Keep the answer concise.
+
+providers:
+  - id: openai:gpt-5-mini
+    config:
+      temperature: 0.05
+  - id: openai:gpt-5
+    config:
+      temperature: 0.05
+
+tests:
+  - vars:
+      topic: entrepreneur
+    assert:
+      - type: contains
+        value: "period of time"
+      - type: javascript
+        value: output.length < 2500

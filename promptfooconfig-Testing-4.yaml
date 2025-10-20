@@ -1,0 +1,28 @@
+description: "IRAS Bot eval"
+
+prompts:
+  - |
+    System: You are a friendly customer service agent named IRAS Bot.
+    User: {{customer_message}}
+    Assistant: Let me help you with that!
+
+providers:
+  - id: openai:gpt-5-mini
+    config:
+      temperature: 0.2
+  - id: openai:gpt-5
+    config:
+      temperature: 0.2
+
+tests:
+  - vars:
+      customer_message: "I will like to find out!"
+    assert:
+      - type: icontains
+        value: "find out"
+      - type: icontains
+        value: "happy"
+      - type: llm-rubric
+        provider: openai:gpt-5-mini
+        value: |
+          Contain bullet point.
