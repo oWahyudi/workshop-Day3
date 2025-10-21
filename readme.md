@@ -104,3 +104,53 @@ This workshop result is submitted as part of an evaluation for Integrating and D
 ![alt text](image-24.png)
 
 # Token Monitoring Workshop
+
+## Workshop – Monitoring LLM Token Usage I
+
+### Install required packages
+
+![alt text](image-25.png)
+
+![alt text](image-26.png)
+
+## Workshop – Monitoring LLM Token Usage II - III
+
+## FastAPI with Token Metrics
+
+![alt text](image-27.png)
+
+![alt text](image-28.png)
+
+## Workshop – Monitoring LLM Token Usage IV
+
+## Run the App
+
+![alt text](image-30.png)
+
+## Workshop – Monitoring LLM Token Usage V
+
+## Configuring Prometheus
+
+![alt text](image-32.png)
+
+## Configuring Docker Prometheus and Grafana
+
+![alt text](image-33.png)
+
+## Run Prometheus & Grafana in Docker
+
+![alt text](image-31.png)
+
+![alt text](image-34.png)
+
+![alt text](image-35.png)
+
+### Prometheus
+
+![alt text](image-29.png)
+
+![alt text](image-36.png)
+
+### Grafana
+
+![alt text](image-37.png)

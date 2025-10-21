@@ -1,0 +1,23 @@
+{
+  "title": "LLM Token Monitor",
+  "panels": [
+    {
+      "type": "timeseries",
+      "title": "Total Tokens Used",
+      "targets": [
+        { "expr": "llm_tokens_total" }
+      ]
+    },
+    {
+      "type": "timeseries",
+      "title": "Prompt vs Completion Tokens",
+      "targets": [
+        { "expr": "llm_tokens_prompt" },
+        { "expr": "llm_tokens_completion" }
+      ]
+    }
+  ],
+  "schemaVersion": 37,
+  "version": 1
+}
+
