@@ -4,4 +4,5 @@ pydantic>=1.10.0
 openai>=1.0.0
 prometheus-client>=0.17.0
 python-dotenv>=1.0.0     
-
+Flask>=3.1.2
+langfuse>=3.6.1

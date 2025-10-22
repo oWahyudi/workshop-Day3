@@ -154,3 +154,21 @@ This workshop result is submitted as part of an evaluation for Integrating and D
 ### Grafana
 
 ![alt text](image-37.png)
+
+# Langfuse Workshop
+
+## Workshop – Langfuse I, II, III, IV, V
+
+### Run python app
+
+![alt text](image-38.png)
+
+### Test Application
+
+![alt text](image-39.png)
+
+![alt text](image-40.png)
+
+![alt text](image-41.png)
+
+![alt text](image-42.png)
