@@ -6,3 +6,11 @@ prometheus-client>=0.17.0
 python-dotenv>=1.0.0     
 Flask>=3.1.2
 langfuse>=3.6.1
+langchain==1.0.2
+pytest==8.4.1
+deepeval==3.3.2
+llama-cpp-python
+detoxify==0.5.2
+Dbias==0.1.5
+loguru==0.7.3
+coverage==7.10.1

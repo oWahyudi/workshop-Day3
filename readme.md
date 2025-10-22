@@ -175,7 +175,15 @@ This workshop result is submitted as part of an evaluation for Integrating and D
 
 # Detecting Toxicity Bias & Hallucination Workshop
 
-TBU
+## Create Confident.AI account
+
+![alt text](image-47.png)
+
+## Runnin The code and performing the evaluation
+
+![alt text](image-48.png)
+
+![alt text](image-49.png)
 
 # Deployment Workshop
 
