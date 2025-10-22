@@ -172,3 +172,25 @@ This workshop result is submitted as part of an evaluation for Integrating and D
 ![alt text](image-41.png)
 
 ![alt text](image-42.png)
+
+# Detecting Toxicity Bias & Hallucination Workshop
+
+TBU
+
+# Deployment Workshop
+
+## Pull an AI model
+
+![alt text](image-43.png)
+
+## Run an AI model
+
+![alt text](image-44.png)
+
+## Interact with the model via API
+
+![alt text](image-45.png)
+
+## Manage Running Models
+
+![alt text](image-46.png)
